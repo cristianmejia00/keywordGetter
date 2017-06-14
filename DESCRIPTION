@@ -3,7 +3,7 @@ Title: Transform topic model reports to the input object for heatmaps
 Version: 0.0.0.9000
 Authors@R: person("Cristian", "Mejia", email = "cristianmejia00@gmail", role = c("aut", "cre"))
 Description: Takes a .csv report created with the code topic_model_5.R and prepares it for heatmap visualization
-Depends: R (>= 3.4.0), data.table
+Depends: R (>= 3.4.0), data.table, stringr
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true

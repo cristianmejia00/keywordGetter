@@ -41,7 +41,7 @@ keywords_to_list <- function(a_data_frame) {
 #' @export
 #' @examples
 #' fukan_keywords_to_list(path)
-fukan_Keywords_to_list <- function(path, report = FALSE) {
+fukan_keywords_to_list <- function(path, report = FALSE) {
   # select the directory with the files, mission.keywords for each cluster
   file_names = list.files(path = path, full.names= TRUE, pattern = "*.tsv")
 

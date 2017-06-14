@@ -1,5 +1,3 @@
-R <- 100
-
 #' Transform list of n_grams to unigrams
 #'
 #' Transform list of n_grams to unigrams
@@ -11,7 +9,7 @@ R <- 100
 unigrams <-  function(x) {
   terms <- x$TERM
   terms <- strsplit(terms, split =" ")
-  index <- which(sapply(terms, length) == 1)[1:R]
+  index <- which(sapply(terms, length) == 1)[1:100] #100 words per cluster
   return (x[index,c(1,2)])}
 
 
